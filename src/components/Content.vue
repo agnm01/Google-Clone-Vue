@@ -1,4 +1,5 @@
 <template>
+
     <!--Logo-->
     <section class="logo">
         <div class="google-logo">
@@ -16,7 +17,6 @@
                     <div class ="dropdown">
                         <img src="../assets/mic.png" alt="mic pic" class="mic-pic">
                         <div class="dropdown-content">
-                            <p>Search by voice</p>
                         </div>
                     </div>
                 </label>
@@ -25,20 +25,23 @@
 
         <!--Buttons-->
         <div class="buttons">
-            <button>Google Search</button>
-            <button>I'm Feeling Lucky</button>
+            <button>{{$t("search.message")}}</button>
+            <button>{{$t("lucky.message")}}</button>
         </div>
-        <div class="language-list">
-            <p>Google offered in: </p>
-            <a href="index-ro.html" class="language">Română</a>
-            <a href="index-hu.html" class="language">Magyar</a>
-            <a href="index-de.html" class="language">Deutsch</a>
-        </div>
+        <LanguageSelector></LanguageSelector>
+        
     </section>
 
 </template>
 
 <script>
+import LanguageSelector from './LanguageSelector.vue'
+export default {
+    components: {
+        LanguageSelector: LanguageSelector
+    }
+}
+
 </script>
 
 <style>

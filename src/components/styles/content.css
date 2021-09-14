@@ -101,26 +101,25 @@
 
 /*Language*/
 
-.logo .language-list {
+.language-list {
     padding-top: 30px;
-    ;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 5px10px;
+    margin: 5px 10px;
     font-size: 13px;
     font-family: arial, sans-serif;
     align-items: flex-start;
 }
 
-.logo .language-list .language {
+.language-list .language {
     display: flex;
     align-content: space-around;
     margin: 0px 5px;
     color: #0300a8;
 }
 
-.logo .language-list .language:hover {
+.language-list .language:hover {
     text-decoration: underline;
 }
 

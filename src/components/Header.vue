@@ -5,7 +5,7 @@
                 <a href="https:mail.google.com">Gmail</a>    
             </li>
             <li>
-                <a href="https://images.google.com/">Images</a>    
+                <a href="https://images.google.com/">{{$t("images.message")}}</a>    
             </li>
 
             <!--Images header-->
