@@ -12,11 +12,13 @@ const messages = {
     ro: messages_ro.lang,
     de: messages_de.lang,
     hu: messages_hu.lang
-}
+};
+
+const DEFAULT_LOCALE = 'en';
 
 const i18n = createI18n({
-    locale: 'en', // set locale
-    fallbackLocale: 'en', // set fallback locale
+    locale: DEFAULT_LOCALE, // set locale
+    fallbackLocale: DEFAULT_LOCALE, // set fallback locale
     messages, // set locale messages
     // If you need to specify other options, you can set other options
     // ...
