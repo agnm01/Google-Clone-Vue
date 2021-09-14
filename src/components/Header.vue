@@ -12,10 +12,6 @@
             <li>
                 <div class="dropdown-apps">
                     <img src="../assets/google-apps.png" alt="google apps" class="appimg">
-                   
-                    <div class="dropdown-content-apps">
-                        <p>Google apps</p>
-                    </div>
                 </div>
             </li>
             <li>
