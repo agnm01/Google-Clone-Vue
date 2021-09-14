@@ -11,7 +11,7 @@
             <!--Images header-->
             <li>
                 <div class="dropdown-apps">
-                    <img src="./assets/google-apps.png" alt="google apps" class="appimg">
+                    <img src="../assets/google-apps.png" alt="google apps" class="appimg">
                    
                     <div class="dropdown-content-apps">
                         <p>Google apps</p>
@@ -19,7 +19,7 @@
                 </div>
             </li>
             <li>
-                <img src="./assets/profile-pic.png" alt="account image" class="accimg">
+                <img src="../assets/profile-pic.jpg" alt="account image" class="accimg">
             </li>
         </ul>
     </header>
